@@ -1,0 +1,30 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="QR Code Component">
+  <main
+    class="w-screen h-screen grid place-content-center bg-blue-100 dark:bg-blue-950"
+  >
+    <section
+      class="bg-white dark:bg-gray-950 w-3/4 md:w-1/2 p-4 rounded-lg m-8 justify-self-center"
+    >
+      <div class="rounded-lg object-contain overflow-hidden w-full">
+        <img class="w-full" src="image-qr-code.png" alt="imagen del qr" />
+      </div>
+      <div class="w-full my-8">
+        <h1
+          class="text-blue-950 dark:text-blue-100 font-bold text-center text-2xl mb-6"
+        >
+          Improve your front-end skills by building projects
+        </h1>
+        <p
+          class="text-center text-sm font-light text-blue-900 dark:text-blue-50"
+        >
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level!
+        </p>
+      </div>
+    </section>
+  </main>
+</Layout>
